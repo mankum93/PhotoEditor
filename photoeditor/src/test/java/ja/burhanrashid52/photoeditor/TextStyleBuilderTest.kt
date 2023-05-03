@@ -1,14 +1,15 @@
-package ja.burhanrashid52.photoeditor
+package com.allthingsandroid.android.photoeditor
 
 import android.graphics.Paint
 import android.graphics.Typeface
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.widget.TextView
+import com.allthingsandroid.android.photoeditor.TextBorder
+import com.allthingsandroid.android.photoeditor.TextShadow
+import com.allthingsandroid.android.photoeditor.TextStyleBuilder
 import junit.framework.TestCase.*
-import org.junit.Assert
 import org.junit.Test
-import org.mockito.Mock
 import org.mockito.Mockito
 
 class TextStyleBuilderTest {

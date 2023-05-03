@@ -1,7 +1,8 @@
-package ja.burhanrashid52.photoeditor
+package com.allthingsandroid.android.photoeditor
 
 import junit.framework.TestCase
 import android.graphics.Bitmap.CompressFormat
+import com.allthingsandroid.android.photoeditor.SaveSettings
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertFalse
 import org.junit.Test

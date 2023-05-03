@@ -4,4 +4,7 @@
     <dimen name="normal_margin">8dp</dimen>
     <dimen name="large_margin">16dp</dimen>
     <dimen name="top_tool_icon_width">50dp</dimen>
+
+    <dimen name="action_drag_to_delete_height">65dp</dimen>
+    <dimen name="font_size_action_drag_to_delete">20sp</dimen>
 </resources>

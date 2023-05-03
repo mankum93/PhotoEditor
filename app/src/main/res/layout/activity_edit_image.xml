@@ -8,7 +8,6 @@
     android:background="@android:color/black"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -16,13 +15,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_end="?attr/actionBarSize" />
 
-    <ja.burhanrashid52.photoeditor.PhotoEditorView
+    <com.allthingsandroid.android.photoeditor.PhotoEditorView
         android:id="@+id/photoEditorView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/rvConstraintTools"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:photo_src="@drawable/blank_image" />
 

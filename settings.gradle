@@ -1,2 +1,5 @@
 include ':app', ':photoeditor'
 //Linese
+include ':photoeditor_original_burhan'
+include ':photofilter'
+include ':common'

@@ -19,4 +19,7 @@
     <color name="tool_bg">#151414</color>
     <color name="semi_black_transparent">#99000000</color>
 
+    <color name="brand_color_500">#DD3B38</color>
+    <color name="action_drag_to_delete_stickers">@color/brand_color_500</color>
+
 </resources>

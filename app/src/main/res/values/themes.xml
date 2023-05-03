@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Button with Red color-->
+    <style name="Button.Brand_500" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/action_drag_to_delete_stickers</item>
+    </style>
+
+
+</resources>

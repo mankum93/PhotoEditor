@@ -7,8 +7,12 @@
         android:maxSdkVersion="28" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-sdk tools:overrideLibrary="com.crazylegend.activity, com.crazylegend.fragment, com.crazylegend.context, com.crazylegend.view, com.crazylegend.contextgetters, com.crazylegend.common"/>
+
     <application
-        android:name="com.burhanrashid52.photoediting.PhotoApp"
+        android:name="com.allthingsandroid.android.photoediting.PhotoApp"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
@@ -17,13 +21,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-
+        tools:overrideLibrary="com.crazylegend.activity"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:allowBackup">
         <activity
-            android:name="com.burhanrashid52.photoediting.EditImageActivity"
+            android:name="com.allthingsandroid.android.photoediting.EditImageActivity"
             android:exported="true"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,7 +64,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.burhanrashid52.photoediting.fileprovider"
+            android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">
 
